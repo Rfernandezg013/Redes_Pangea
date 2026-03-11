@@ -1,0 +1,19 @@
+# Entornos virtuales y cachés de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Archivos temporales de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ocultar los datos masivos (NUNCA subir raw data)
+# Esto ignora cualquier CSV que esté dentro de la carpeta data
+data/*.csv
+data/raw/*.csv
+data/processed/*.csv
+
+# Archivos de configuración local o secretos (claves de APIs, etc.)
+.env
+.DS_Store
