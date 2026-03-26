@@ -253,7 +253,7 @@ st.markdown("""
 st.markdown("""
 <p style="text-align:center; color:#64748b; font-size:0.9rem; margin-top:0;">
     Raúl Fernández · Aitor Nieto · Juan Carlos Cintas · Javier Riscos
-    &nbsp;|&nbsp; Curso 2024-2025
+    &nbsp;|&nbsp; Curso 2025-2026
 </p>
 """, unsafe_allow_html=True)
 
