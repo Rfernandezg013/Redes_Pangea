@@ -277,7 +277,7 @@ col4.metric("Grado Medio ⟨k⟩", "19.5", delta="Conexiones por yacimiento")
 # ┌────────────────────────────────────────────────────────────────────┐
 # │ Coloca tu infografía como 'infografia.png' junto a app.py        │
 # └────────────────────────────────────────────────────────────────────┘
-RUTA_INFOGRAFIA = "infografia.png"
+RUTA_INFOGRAFIA = "extra/infografia.png"
 if os.path.exists(RUTA_INFOGRAFIA):
     st.image(RUTA_INFOGRAFIA, use_container_width=True,
              caption="Infografía resumen del proyecto")
@@ -672,7 +672,7 @@ st.markdown("## Visualización Interactiva de la Red")
 # │ Se ofrece como descarga para evitar congelar Streamlit.          │
 # └────────────────────────────────────────────────────────────────────┘
 
-RUTA_RED_HTML = "red_pangea_interactiva.html"
+RUTA_RED_HTML = "extras/red_pangea_interactiva.html"
 
 if os.path.exists(RUTA_RED_HTML):
     st.markdown("""
