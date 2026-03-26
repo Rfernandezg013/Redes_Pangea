@@ -277,7 +277,7 @@ col4.metric("Grado Medio ⟨k⟩", "19.5", delta="Conexiones por yacimiento")
 # ┌────────────────────────────────────────────────────────────────────┐
 # │ Coloca tu infografía como 'infografia.png' junto a app.py        │
 # └────────────────────────────────────────────────────────────────────┘
-RUTA_INFOGRAFIA = "extra/infografia.png"
+RUTA_INFOGRAFIA = "extras/infografia.png"
 if os.path.exists(RUTA_INFOGRAFIA):
     st.image(RUTA_INFOGRAFIA, use_container_width=True,
              caption="Infografía resumen del proyecto")
@@ -672,13 +672,13 @@ st.markdown("## Visualización Interactiva de la Red")
 # │ Se ofrece como descarga para evitar congelar Streamlit.          │
 # └────────────────────────────────────────────────────────────────────┘
 
-RUTA_RED_HTML = "extras/red_pangea_interactiva.html"
+RUTA_RED_HTML = "extras/mapa_pangea_interactivo.html""
 
 if os.path.exists(RUTA_RED_HTML):
     st.markdown("""
-    La visualización interactiva (generada con **pyvis**) muestra la red de
-    co-ocurrencia fósil. Cada nodo es un yacimiento, el color indica la comunidad
-    de Louvain y el tamaño es proporcional al grado.
+    Mapa interactivo con las comunidades de Louvain proyectadas sobre las
+    paleo-coordenadas de Pangea (izquierda) y las coordenadas modernas
+    post-deriva continental (derecha).
     """)
 
     with open(RUTA_RED_HTML, "r", encoding="utf-8") as f:
