@@ -5,7 +5,7 @@
 ║                                                                              ║
 ║  Grado en Ciencia de Datos e Inteligencia Artificial                        ║
 ║  Universidad Politécnica de Madrid · Computación Social y Personalización   ║
-║  Curso 2024-2025                                                             ║
+║  Curso 2025-2026                                                             ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 INSTRUCCIONES DE USO:
@@ -847,7 +847,7 @@ st.markdown("""
     </div>
     <div style="color:#475569; font-size:0.8rem;">
         Computación Social y Personalización · Grado en CDIA ·
-        Universidad Politécnica de Madrid · 2024-2025
+        Universidad Politécnica de Madrid · 2025-2026
     </div>
 </div>
 """, unsafe_allow_html=True)
