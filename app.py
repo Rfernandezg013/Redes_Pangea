@@ -672,7 +672,7 @@ st.markdown("## Visualización Interactiva de la Red")
 # │ Se ofrece como descarga para evitar congelar Streamlit.          │
 # └────────────────────────────────────────────────────────────────────┘
 
-RUTA_RED_HTML = "extras/mapa_pangea_interactivo.html""
+RUTA_RED_HTML = "extras/mapa_pangea_interactivo.html"
 
 if os.path.exists(RUTA_RED_HTML):
     st.markdown("""
